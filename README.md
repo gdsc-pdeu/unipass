@@ -52,7 +52,7 @@ npm unlink
 
   
 ## Why I built this?  
-  The strongest reason why I built this is that I wanted to play with Node.js and solve the problem of thining of new passwords. Isn’t it cool that I can create a new password while I’m using the terminal! A password generator was one of the ways to get started with Node.js and hence I went ahead with it. It does not have many special features but was an interesting way to learn Node.js.✨
+  The strongest reason why I built this is that I wanted to play with Node.js and solve the problem of thinking of new passwords. Isn’t it cool that I can create a new password while I’m using the terminal! A password generator was one of the ways to get started with Node.js and hence I went ahead with it. It does not have many special features but was an interesting way to learn Node.js.✨
   
 ## Credits
 
