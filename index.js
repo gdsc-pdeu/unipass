@@ -13,14 +13,16 @@ program
 .option('-s, --save', 'save password to passwords.txt')
 .option('-nn, --no-numbers', 'remove numbers')
 .option('-ns, --no-symbols', 'remove symbols')
+//limited symbols
+.option('-ls, --limited-symbols <String>', 'limited symbols')
 .parse()
 
-const {length, save, numbers, symbols} = program.opts()
+const {length, save, numbers, symbols, limitedSymbols} = program.opts()
 
 //console.log(numbers, symbols)
 
 //get generated password
-const generatedPassword = createPassword(length, numbers, symbols)
+const generatedPassword = createPassword(length, numbers, symbols, limitedSymbols)
 
 //Save to file
 if(save) {
